@@ -23,7 +23,6 @@ const start = () => {
 		{command: '/start', description: 'Приветствие'},
 		{command: '/info', description: 'Информация о вас'},
 		{command: '/game', description: 'Игра - отгадай число'},
-		{command: '/max', description: '+7 999 509 0478 - это номер МаксимаSpider2012, набери ему, если хочешь веселья)'}
 	])
 	
 	bot.on('message', async msg => {
